@@ -3,8 +3,8 @@
 
 #include <string>
 
-#define YOUTUBEIDPREFIX "www.youtube.com/?"
-#define YOUTUBEIDSUFFIX "local=en-us"
+#define YOUTUBEIDPREFIX "http://www.youtube.com/get_video_info?&video_id="
+#define YOUTUBEIDSUFFIX "&el=detailpage&ps=default&eurl=&gl=US&hl=en"
 
 
 #define YOUTUBEURL "www.youtube.com"
