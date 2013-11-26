@@ -1,5 +1,6 @@
+#ifndef DECODEURL_H
+#define DECODEURL_H
 #include <string>
-
 #include <fstream>
 #define CHAR_2F "/"
 #define CHAR_3D "="
@@ -10,6 +11,9 @@
 void decodeurl(std::string& src_url);
 
 
+
+
+#endif
 
 
 
